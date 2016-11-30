@@ -1,0 +1,14 @@
+<ion-view view-title="Profile">
+    <ion-content>
+        <h1>My Profile</h1>
+        <ion-list>
+            <p>{{profileData.name}}</p>
+        </ion-list>
+        <div class="list">
+            <label class="item">
+                <p>Not {{profileData.name}} ?</p>
+                <button class="button button-block button-positive" ng-click="logout()">Logout</button>
+            </label>
+        </div>
+    </ion-content>
+</ion-view>
